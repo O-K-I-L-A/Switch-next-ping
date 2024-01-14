@@ -68,13 +68,13 @@ def update_dns_record(email, api_key, zone_name, record_name, record_type, conte
         print(f'Failed to update DNS record. Status code: {response.status_code}, Error: {response.text}')
 
 # Replace these with your Cloudflare credentials and DNS record details
-email = 'lzt1399@gmail.com'
-api_key = 'f91863182686c1cab99d191dd75428d6298e9'
-zone_name = 'hajistock.ir'
+email = 'mail Cloudflare'
+api_key = 'global api key Cloudflare'
+zone_name = 'domain.ir'
 subdomain = 'xs'  # Replace with your subdomain
 record_name = f'{subdomain}.{zone_name}'  # Full record name including subdomain
 record_type = 'A'
-content = '15.5.5.5'
+content = 'new ip 8.8.8.8'
 ttl = 1
 
 update_dns_record(email, api_key, zone_name, record_name, record_type, content, ttl)
