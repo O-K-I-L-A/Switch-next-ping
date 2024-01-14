@@ -19,7 +19,7 @@ def main():
         # Replace 'python3' with 'python' if you're using Python 2
         subprocess.run(["python3", "change-sub.py"])
     else:
-        print(f"Response received from {domain_to_ping}. No need to run ch.py.")
+        print(f"Response received from {domain_to_ping}. No need to run change-sub.py.")
 
 if __name__ == "__main__":
     main()
